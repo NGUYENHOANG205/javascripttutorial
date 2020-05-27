@@ -10,6 +10,7 @@ todoList.addEventListener("click", deleteCheck, true);
 function addTodo(){
     event.preventDefault();
 //todo DIV
+//comment
 const todoDiv = document.createElement('div');
 todoDiv.classList.add('todo');
 //create LI
